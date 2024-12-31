@@ -1,2 +1,1 @@
-# attport
-Next js, Tailwind CSS, TypeScript
+# My Portfolio Project
