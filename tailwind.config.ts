@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-export default {
+const config: Config = {
   darkMode: ["class"],
   content: [
     "./pages/**/*.{ts,tsx}",
@@ -18,6 +18,15 @@ export default {
       },
     },
     extend: {
+      animation: {
+        blink: "blink 1.5s ease-in-out infinite",
+      },
+      keyframes: {
+        blink: {
+          "0%, 100%": { opacity: "1" }, // Ensure values are in string format
+          "50%": { opacity: "0" },      // Ensure values are in string format
+        },
+      },
       colors: {
         neonGreen: '#e5d9fa',
         border: "hsl(var(--border))",
@@ -52,4 +61,6 @@ export default {
     },
   },
   plugins: [require("tailwindcss-animate")],
-} satisfies Config;
+};
+
+export default config;

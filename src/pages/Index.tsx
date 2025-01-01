@@ -43,11 +43,11 @@ const Index = () => {
       <CustomCursor />
       <Navigation />
       
-      <section id="home" className="bg-sections-hero text-cyan-200">
+      <section id="home" className="bg-sections-hero text-cyan-200 bg-[linear-gradient(to_bottom_right,#ffffff,#9999FF_40%,#9999FF_60%,#ffffff)]">
         <Hero />
       </section>
 
-      <section id="about" className="bg-sections-about text-white">
+      <section id="about" className="bg-sections-about text-white bg-[linear-gradient(to_bottom_right,#ffffff,#9999FF_40%,#9999FF_60%,#ffffff)]">
         <Company />
       </section>
 
@@ -204,18 +204,18 @@ const Index = () => {
         </div>
       </footer>
       <a
-        href="https://api.whatsapp.com/send?phone=923448985072&text=Hello! I visited your portfolio website and am impressed by your work as a DevOps developer. I would like to discuss potential opportunities or ask for your assistance. Looking forward to connecting with you!"
-        className="fixed w-[70px] h-[50px] bottom-10 right-10 bg-[#25d366] text-white rounded-md text-center text-[30px] shadow-md z-[100] hover:no-underline flex items-center justify-center"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
-          alt="WhatsApp"
-          width="30"
-          height="30"
-        />
-      </a>
+      href="https://api.whatsapp.com/send?phone=923448985072&text=Hello! I visited your portfolio website and am impressed by your work as a DevOps developer. I would like to discuss potential opportunities or ask for your assistance. Looking forward to connecting with you!"
+      className="fixed w-[70px] h-[50px] bottom-10 right-10 bg-[#25d366] text-white rounded-md text-center text-[30px] shadow-md z-[100] hover:no-underline flex items-center justify-center animate-pulse"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+        alt="WhatsApp"
+        width="30"
+        height="30"
+      />
+    </a>
     </div>
   );
 };

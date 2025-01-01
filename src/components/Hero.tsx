@@ -4,7 +4,7 @@ import { SocialLinks } from "./SocialLinks";
 
 export const Hero = () => {
   return (
-    <section className="container min-h-screen flex flex-col items-center justify-center py-20 animate-fade-in bg-[linear-gradient(to_bottom_right,#ffffff,#9999FF_40%,#9999FF_60%,#ffffff)]">
+    <section className="container min-h-screen flex flex-col items-center justify-center py-20 animate-fade-in">
       <div className="max-w-4xl mx-auto text-center space-y-8">
         <div className="space-y-4">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-accent  via-primary to-white bg-clip-text text-transparent animate-fade-up" style={{ animationDelay: "200ms" }}>

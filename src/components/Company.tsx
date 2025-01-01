@@ -4,7 +4,7 @@ import { ExternalLink } from "lucide-react";
 
 export const Company = () => {
   return (
-    <section className="container min-h-[70vh] flex items-center justify-center py-20 bg-[linear-gradient(to_bottom_right,#ffffff,#9999FF_40%,#9999FF_60%,#ffffff)]">
+    <section className="container min-h-[70vh] flex items-center justify-center py-20">
       <GlassCard className="max-w-4xl mx-auto p-8 animate-fade-in">
         {/* Hire Me Subsection */}
         <div className="mb-5">
