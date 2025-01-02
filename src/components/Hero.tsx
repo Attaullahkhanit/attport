@@ -16,14 +16,18 @@ export const Hero = () => {
             </span> 
           </h1>
           <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl text-[#5651e5] font-medium tracking-wider animate-fade-up">
-            Sr. Front End Developer
+            MERN Stack Developer
           </h2>
 
         </div>
         <GlassCard className="mb-8 animate-fade-up" style={{ animationDelay: "400ms" }}>
-          <p className="text-lg md:text-xl text-black">
-          I am a Senior Front-End React.js Developer with a passion for creating and occasionally designing exceptional digital experiences. As a Lead Senior Front-End Developer, I specialize in developing responsive, dynamic web applications, leveraging the power of generative AI to enhance user experiences. My expertise spans across building scalable, high-performance applications that not only meet business goals but also provide seamless, engaging interfaces. I'm committed to staying at the forefront of technology, continuously exploring innovative solutions to deliver cutting-edge products.</p>
-        </GlassCard>
+          <p className="text-lg md:text-xl text-black text-left">
+          I am a Senior Front-End React.js Developer with more than six years of experience in web development, specializing in creating and occasionally designing exceptional digital experiences. As a Lead Senior Front-End Developer, I focus on developing responsive, dynamic web applications that leverage the power of generative AI to enhance user experiences.
+          <br/><br/>
+          With a proven history of working in tech companies, I have successfully built scalable, high-performance applications that align with business goals while delivering seamless and engaging interfaces. I am passionate about innovation, creativity, and dedication, continuously exploring new technologies to stay at the forefront of the industry.
+          <br/><br/>
+          I am seeking a challenging position in the software industry that values innovation and offers opportunities to foster creativity, embrace learning, and make a meaningful impact through cutting-edge products.</p>
+          </GlassCard>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 animate-fade-up" style={{ animationDelay: "600ms" }}>
           <a

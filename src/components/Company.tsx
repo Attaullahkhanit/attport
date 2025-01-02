@@ -9,7 +9,7 @@ export const Company = () => {
         {/* Hire Me Subsection */}
         <div className="mb-5">
           <h2 className="text-3xl md:text-4xl font-bold mb-8 bg-gradient-to-r from-accent  via-primary to-primary bg-clip-text text-transparent">
-            Looking for a Sr. Front End Developer?
+            Looking for a MERN Stack Developer?
           </h2>
           <p className="text-black mb-6">I am a Senior Front-End Developer with 6 years of experience across the full software development lifecycle. Specializing in the development of high-performance, highly available web applications, I focus on delivering innovative technological solutions, including AI-integrated web applications.
           </p>

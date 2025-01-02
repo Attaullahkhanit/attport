@@ -43,19 +43,19 @@ const Index = () => {
       <CustomCursor />
       <Navigation />
       
-      <section id="home" className="bg-sections-hero text-cyan-200 bg-[linear-gradient(to_bottom_right,#ffffff,#9999FF_40%,#9999FF_60%,#ffffff)]">
+      <section id="home" className="bg-sections-hero text-cyan-200 bg-[linear-gradient(to_bottom_right,#ffffff,#c7b7f2_40%,#c7b7f2_60%,#ffffff)]">
         <Hero />
       </section>
 
-      <section id="about" className="bg-sections-about text-white bg-[linear-gradient(to_bottom_right,#ffffff,#9999FF_40%,#9999FF_60%,#ffffff)]">
+      <section id="about" className="bg-sections-about text-white bg-[linear-gradient(to_bottom_right,#ffffff,#c7b7f2_40%,#c7b7f2_60%,#ffffff)]">
         <Company />
       </section>
 
-      <section id="skills" className="bg-sections-about text-white bg-[linear-gradient(to_bottom_right,#ffffff,#9999FF_40%,#9999FF_60%,#ffffff)]">
+      <section id="skills" className="bg-sections-about text-white bg-[linear-gradient(to_bottom_right,#ffffff,#c7b7f2_40%,#c7b7f2_60%,#ffffff)]">
         <div className="container py-10">
           <div className="text-center mb-12">
             <h2 className="text-3xl text-accent  font-bold mb-4">My Skills</h2>
-            <p className="text-xl font-bold text-white/80 max-w-2xl mx-auto">
+            <p className="text-xl font-bold text-black max-w-2xl mx-auto">
             Empowering ideas with cutting-edge technology, I transform visions into extraordinary digital experiences.
             </p>
           </div>
@@ -65,7 +65,7 @@ const Index = () => {
 
       <section
           id="projects"
-          className="bg-sections-services bg-[linear-gradient(to_bottom_right,#ffffff,#9999FF_40%,#9999FF_60%,#ffffff)]"
+          className="bg-sections-services bg-[linear-gradient(to_bottom_right,#ffffff,#c7b7f2_40%,#c7b7f2_60%,#ffffff)]"
         >
           <div className="container py-20">
             <h2 className="text-3xl md:text-4xl font-bold text-center text-accent mb-12">Projects</h2>
@@ -96,11 +96,11 @@ const Index = () => {
             </div>
           </div>
         </section>
-      <section id="testimonials" className="bg-sections-testimonials text-white bg-[linear-gradient(to_bottom_right,#ffffff,#9999FF_40%,#9999FF_60%,#ffffff)]">
+      <section id="testimonials" className="bg-sections-testimonials text-white bg-[linear-gradient(to_bottom_right,#ffffff,#c7b7f2_40%,#c7b7f2_60%,#ffffff)]">
         <Testimonials />
       </section>
 
-      <section id="contact" className="bg-sections-testimonials text-white bg-[linear-gradient(to_bottom_right,#ffffff,#9999FF_40%,#9999FF_60%,#ffffff)]">
+      <section id="contact" className="bg-sections-testimonials text-white bg-[linear-gradient(to_bottom_right,#ffffff,#c7b7f2_40%,#c7b7f2_60%,#ffffff)]">
         <div className="container py-20">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-accent mb-12">Get in Touch</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -163,7 +163,7 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="bg-sections-footer text-gray-300 bg-[linear-gradient(to_bottom_right,#ffffff,#9999FF_40%,#9999FF_60%,#ffffff)]">
+      <footer className="bg-sections-footer text-gray-300 bg-[linear-gradient(to_bottom_right,#ffffff,#c7b7f2_40%,#c7b7f2_60%,#ffffff)]">
         <div className="container py-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
